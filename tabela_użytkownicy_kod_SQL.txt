@@ -1,0 +1,7 @@
+CREATE TABLE `uzytkownicy` (
+  `id` int(11) NOT NULL,
+  `imie` varchar(32) NOT NULL,
+  `nazwisko` varchar(64) NOT NULL,
+  `email` varchar(128) NOT NULL,
+  `haslo` varchar(32) NOT NULL
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin2;
