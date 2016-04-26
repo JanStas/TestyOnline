@@ -1,0 +1,10 @@
+Ekran g³ówny panelu administracyjnego jest czytelny, zastrze¿enia mo¿na mieæ jedynie do tego,
+¿e niektóre elementy graficzne sa nierówno rozmieszczone i zachodz¹ na siebie. Wszystkie funkcje
+dzia³aj¹ poprawnie. Listing testowania:
+
+- zbadanie elementów graficznych panelu administracyjnego
+- sprawdzenie, jak w za³o¿eniu mia³y dzia³aæ funkcje panelu adm.
+- porównanie za³o¿onej funkcjonalnoœci z rzeczyist¹
+- próba nieupowaznionego dostêpu do panelu (nie udana)
+
+Panel administracyjny uwa¿am za sprawny.
