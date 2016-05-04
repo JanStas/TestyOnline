@@ -1,0 +1,81 @@
+Testy z zakresu 'Bazy Danych'
+
+1. Co oznacza skrót SQL?
+
+a) Structured Query Language
+b) Sedused Query sLang
+c) Structured Queen Languages
+
+odp. A
+
+2. Za pomoc¹ jakiej funkcji mo¿na dodaæ rekord do tabeli?
+
+a) DELETE
+b) ORDER BY
+c) INSTER
+
+odp. C
+
+3. Do czego s³u¿y funkcja COUNT?
+
+a) ³¹czy tabele o podobnych wierszach
+b) zlicza zadana wartoœæ
+c) usuwa dane z tabeli
+
+odp. B
+
+4. Za pomoc¹ jakiej funkcji mo¿na po³¹czyæ tabele?
+
+a) ORDER BY
+b) WHERE
+c) JOIN
+
+odp. C
+
+5. Z jakiego jezyka baz danych korzysta system Android?
+
+a) SQL
+b) SQL-JN
+c) SQ-Lite
+
+odp. C
+
+6. Baza danych to:
+
+a) filtr umo¿liwiaj¹cy wybranie z bazy danych wy³¹cznie potrzebnych danych wed³ug zadanego klucza
+b) zbiór danych, który mo¿na przetwarzaæ za pomoc¹ programów komputerowych
+c) program komputerowy Access
+
+odp. B
+
+7. Podstawowym elementem bazy danych zawieraj¹cym kompletny opis jednego obiektu bazy jest: 
+
+a) plik bazy danych
+b) kwerenda
+c) rekord
+
+odp. C
+
+8. Które zdanie jest prawdziwe?
+
+a) ka¿da baza danych zawiera tak¹ sam¹ liczbê rekordów
+b) ka¿dy rekord jednej bazy danych ma tak¹ sam¹ strukturê
+c) wszystkie odpowiedzi s¹ poprawne
+
+odp. B
+
+9. Porz¹dkowanie informacji w bazie danych odbywa siê za pomoc¹:
+
+a) sortowania
+b) filtrowania
+c) kopiowania i wklejania
+
+odp. A
+
+10. Podstawowym elementem w tabeli bazy danych jest:
+
+a) akapit
+b) arkusz
+c) rekord
+
+odp. C
