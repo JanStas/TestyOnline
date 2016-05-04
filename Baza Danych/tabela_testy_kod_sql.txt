@@ -1,0 +1,4 @@
+ +CREATE TABLE `testy` (
++  `id_testu` int(11) NOT NULL,
++  `nazwa_testu` varchar(32) NOT NULL
++) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=latin2;
