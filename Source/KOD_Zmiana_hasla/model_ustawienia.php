@@ -6,7 +6,6 @@
 * extends Model.php
 *
 * @author Mateusz Sorys
-* 
 *
 */
 
@@ -53,10 +52,40 @@ class model_ustawienia extends Model {
 
 
 
-		// 	return $stmt->fetch();
-
-
+		// 	return $stmt->fetch(
 
 	}
+	public function pobierz_dane_uzytkownika($id)
+	{
+		$stmt = $this->dbh->prepare("SELECT imie,nazwisko,email from uzytkownicy where id=:id_uzytkownika");
+		$stmt->execute(array(
+			':id_uzytkownika'=>$id
+			));
+		return $stmt->fetch();
+	}
 
+	public function walidacja_zmiana_danych($post,$id)
+	{
+		if(empty($post['imie'])|| empty($post['nazwisko'])||empty($post['email'])||empty($post['pow_email'])){
+			return 'Uzupełnij wszystkie pola';
+			exit();
+		}
+		if($post['email']==$post['pow_email'])
+		{
+			$stmt=$this->dbh->prepare("UPDATE uzytkownicy set imie=:imie, nazwisko=:nazwisko, email=:email where id=:id_uzytkownika");
+			$stmt->execute(array(
+				':imie'=>$post['imie'],
+				':nazwisko' =>$post['nazwisko'],
+				':email'=>$post['email'],
+				':id_uzytkownika'=>$id
+				));
+
+			return 'Dane zmienione poprawnie!';
+		}
+		else
+		{
+			return 'Adres email i powtórzony adres email muszą byc takie same!';
+			exit();
+		}
+	}
 }
