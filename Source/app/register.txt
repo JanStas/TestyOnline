@@ -1,0 +1,50 @@
+<div id="header_block">
+			<div class="container">
+				<div class="col-1_3">
+					<a href="<?=__URL__?>">
+						<img src="<?=__URL__?>images/logo.png">
+					</a>
+				</div>
+
+				<div class="col-2_3">
+					<div class="fb-medium mtop-25">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+
+<div id="content_block">
+	<div class="container">
+		<div id="register_form" class="mtop-75">
+
+			<a class="btn-default" id="btn_login" href="<?=__URL__?>logowanie">Mam już konto</a>
+
+			<form action="<?=__URL__?>home/rejestruj" method="POST" id="ajax_register">
+
+
+				<div class="col-1_2">
+					<p class="color-default fb-smedium">
+						Nie posiadasz konta? W łatwy i szybki sposób możesz zarejestrować się już dziś!
+					</p>
+					<input type="text" class="form-full-width mtop-10" name="imie" placeholder="Imie"/><br/>
+					<input type="text" class="form-full-width" name="nazwisko" placeholder="Nazwisko"/><br/>
+					<input type="text" class="form-full-width" name="email" placeholder="Adres E-mail"/><br/>
+					<input type="password" class="form-full-width" name="haslo" placeholder="Hasło"/><br/>
+					<input type="password" class="form-full-width" name="powtorz_haslo" placeholder="Powtórz hasło"/><br/>
+
+					<p class="mtop-25">
+						<input class="btn-default" type="submit" value="Utwórz konto"/>
+					</p>
+				</div>
+
+				<div class="col-1_2 text-center">
+					<div id="form_callback"></div>
+				</div>
+				<div class="clear"></div>
+				
+			</form>
+		</div>
+	</div>
+</div>
